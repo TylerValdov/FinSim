@@ -49,25 +49,25 @@ Installation & Running Locally
     Clone the repository:
     Bash
 
-git clone https://github.com/your-username/financial-suite.git
-cd financial-suite
+    git clone https://github.com/your-username/financial-suite.git
+    cd financial-suite
 
 Setup the Backend:
-Bash
-
-cd backend
-python3 -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-pip install -r requirements.txt # Make sure to create this file: pip freeze > requirements.txt
-python app.py
+    Bash
+    
+    cd backend
+    python3 -m venv venv
+    source venv/bin/activate  # On Windows: venv\Scripts\activate
+    pip install -r requirements.txt # Make sure to create this file: pip freeze > requirements.txt
+    python app.py
 
 The backend server will be running on http://127.0.0.1:5000.
 
 Setup the Frontend (in a new terminal window):
-Bash
-
-cd frontend
-npm install
-npm run dev
+    Bash
+    
+    cd frontend
+    npm install
+    npm run dev
 
 The frontend development server will be running on http://localhost:5173 (or a similar port).
